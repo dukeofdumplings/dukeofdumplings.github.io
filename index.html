@@ -71,17 +71,12 @@
         max-width: 100%;
         overflow-x: hidden;
         text-align: center; /* Center the dots */
+        background-image: linear-gradient(to right, rgb(76, 76, 76) 50%, rgba(255, 255, 255, 0) 0%);
+        background-size: 8px 1px; /* Adjust this value to increase or decrease space between dots */
+        background-repeat: repeat-x;
+        height: 1px;
     }
 
-    .hrz:after {
-    content: "";
-    display: inline-block;
-    width: 100%;
-    height: 1px;
-    background-image: linear-gradient(to right, rgb(76, 76, 76) 50%, rgba(255, 255, 255, 0) 0%);
-    background-size: 8px 1px; /* Adjust this value to increase or decrease space between dots */
-    background-repeat: repeat-x;
-}
     /*BLINKING FOR TEXT*/
     .blinker {
         animation: blink 0.5s step-start infinite;
