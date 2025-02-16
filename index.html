@@ -58,12 +58,22 @@
         margin-top: 20px;
     }
 
+    /*BLINKING FOR TEXT*/
+    .blinker {
+        animation: blink 0.5s step-start infinite;
+    }
+    @keyframes blink {
+        50% {
+            opacity: 0;
+        }
+    }
+
         
     </style>
 </head>
 <body>
     <header>
-        <h1>FN</h1>
+        <h1>FN<blinker class="blinker">.</blinker></h1>
     </header>
     <div class="content">
         <div class="social-media-icons">
@@ -92,7 +102,7 @@
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <footer>
-        <p>Footer Content</p>
+        <p>Inquries: contact@flavorneighbor.com</p>
     </footer>
 </body>
 </html>
