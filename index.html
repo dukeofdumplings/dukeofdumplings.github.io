@@ -90,7 +90,20 @@
             opacity: 0;
         }
     }
+    .content-item {
+    background-color: rgba(255, 255, 255, 0.865);
+    min-height: 200px;
+    margin: 20px 0;
+    color:black
+}
 
+.content-item.odd {
+    border-left: 2px dotted white;
+}
+
+.content-item.even {
+    border-right: 2px dotted white;
+}
         
     </style>
 </head>
@@ -114,7 +127,7 @@
         <a href="#" title="Facebook"><div class="icon-wrapper">
             <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 510.125"><path fill="#fff" fill-rule="nonzero" d="M512 256C512 114.615 397.385 0 256 0S0 114.615 0 256c0 120.059 82.652 220.797 194.157 248.461V334.229h-52.79V256h52.79v-33.709c0-87.134 39.432-127.521 124.977-127.521 16.218 0 44.202 3.18 55.651 6.36v70.916c-6.042-.635-16.537-.954-29.575-.954-41.977 0-58.196 15.901-58.196 57.241V256h83.619l-14.365 78.229h-69.254v175.896C413.771 494.815 512 386.885 512 256z"/></svg>
         </div></a>
-        <a href="#" title="Tiktok"><div class="icon-wrapper">
+        <a href="#" title="TikTok"><div class="icon-wrapper">
             <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 447 512.57"><path fill="#fff" fill-rule="nonzero" d="M380.23 102.74c-27.61-18-47.53-46.81-53.75-80.38-1.34-7.25-2.09-14.72-2.09-22.36h-88.12l-.14 353.16c-1.48 39.55-34.03 71.29-73.93 71.29-12.4 0-24.08-3.1-34.36-8.51-23.58-12.41-39.72-37.12-39.72-65.56 0-40.85 33.24-74.08 74.07-74.08 7.63 0 14.94 1.26 21.86 3.42v-89.96c-7.16-.98-14.44-1.58-21.86-1.58C72.76 188.18 0 260.93 0 350.38c0 54.87 27.41 103.43 69.25 132.8 26.34 18.5 58.39 29.39 92.95 29.39 89.44 0 162.2-72.76 162.2-162.19l-.01-179.09c34.56 24.81 76.92 39.42 122.61 39.42v-88.12c-24.61 0-47.53-7.31-66.77-19.85z"/></svg>
         </div></a>
         <a href="#" title="Instagram"><div class="icon-wrapper">
@@ -122,8 +135,17 @@
         </div></a>
     </div>
     <hr class="hrz"></hr>
-        <p>I am just a placeholder.</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <!-- New content-item blocks -->
+        <div class="content-item odd">
+            <!-- Content for the first block -->
+             <h1>COMING SOON//</h1>
+        </div>
+        <div class="content-item even">
+            <!-- Content for the second block -->
+        </div>
+    </div>
+
     </div>
     <footer>
         <p>Inquries: <youwantthis>contact@flavorneighbor.com</youwantthis></p>
